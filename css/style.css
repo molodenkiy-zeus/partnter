@@ -135,6 +135,10 @@ body {
 	margin: auto;
 	color: white
 }
+section{
+	display: flex;
+	margin-bottom: 150px;
+}
 .text-2 p{
 	margin: 0px 15px;
 	text-indent: 20px;
@@ -142,11 +146,6 @@ body {
 .text-2 ul{
 	margin: 0px 0px 0px 35px;
 }
-section{
-	display: flex;
-	margin-bottom: 150px;
-}
-
 .text-3{
 	width: 90%;
 	color: white;
@@ -337,8 +336,7 @@ footer{
 	}
 	.nav-bar-button:hover .topmenu{
 		display: inline-block;
-		margin-left: 75%;
-		transform: translateX(-30px);
+		margin-left: 80%;
 	}
 	.topmenu>li{
 		width: 100%;
@@ -353,3 +351,4 @@ footer{
 		width: 80%;
 	}
 }
+
