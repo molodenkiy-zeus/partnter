@@ -338,6 +338,7 @@ footer{
 	.nav-bar-button:hover .topmenu{
 		display: inline-block;
 		margin-left: 75%;
+		transform: translateX(-30px);
 	}
 	.topmenu>li{
 		width: 100%;
