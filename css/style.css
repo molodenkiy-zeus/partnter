@@ -337,7 +337,7 @@ footer{
 	}
 	.nav-bar-button:hover .topmenu{
 		display: inline-block;
-		margin-left: 80%
+		margin-left: 75%;
 	}
 	.topmenu>li{
 		width: 100%;
