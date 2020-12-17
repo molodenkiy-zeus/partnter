@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0px auto;
+}
+.partner img{
+	margin-bottom: 10px;
+	height: 150px;
+}
+.partner{
+	width: 30%;	
+}
+.row{
+	height: 50%;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+	.wrapper{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.wrapper{
+		width: 100%;
+	}
+	.row{
+		display: block;
+		margin-bottom: 0px;
+	}
+	.partner{
+		width: 100%;
+		margin-bottom: 50px;	
+	}
+
+}
